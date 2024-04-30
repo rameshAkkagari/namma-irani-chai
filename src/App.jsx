@@ -38,6 +38,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Cookies from './pages/Cookies'
 import SingleCookie from './components/cookies/SingleCookie'
+import LocationPage from './pages/LocationPage'
+import Franchise from './components/Franchise/Franchise'
 function App() {
   return (
     <div>
@@ -47,7 +49,8 @@ function App() {
             <Route path='/about' element={<About/>}/>
             <Route path='/cookies' element={<Cookies/>}/>
             <Route path='/cookies/:id' element={<SingleCookie/>}/>
-
+            <Route path='/location' element={<LocationPage/>}/>
+            <Route path='/franchise' element={<Franchise/>}/>
         </Routes>
         <Footer/>
     </div>

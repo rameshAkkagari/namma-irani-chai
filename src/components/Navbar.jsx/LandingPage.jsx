@@ -38,11 +38,11 @@ function LandingPage() {
                 Discover the rich, aromatic flavors of our traditional Irani chai, brewed with care and passion.
               </p>
             </div>
-         
+        
             <Button>Explore the Menu</Button>
 
           </div>
-          <img src={chaiImages[chaipng]} width={800} height={600} alt="Irani Chai" className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover sm:w-full" />
+          <img src={chaiImages[chaipng]} width={800} height={600} alt="Irani Chai" className="mx-auto aspect-[4/3] overflow-hidden duration-500 rounded-xl object-cover sm:w-full" />
         </div>
       </div>
     </section>
